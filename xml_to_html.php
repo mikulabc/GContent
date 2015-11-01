@@ -1,5 +1,17 @@
 <?php
 
+function getValueByXpath($path)
+{
+ $xml = simplexml_load_file('json_to_xml.xml');
+$result = $xml->xpath($path);
+ if(isset($result) && isset($result[0]))
+ {
+  return $result[0];
+ }
+ else
+	return "NA";
+}
+
 function getThis()
 {
 	echo '<h1>This is a Title</h1><br>';
