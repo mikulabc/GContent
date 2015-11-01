@@ -10,8 +10,8 @@ templates:
 - xml_to_html.php
 
 to run:
-1.) put your keywords in keywords.txt
-2.) run zFinalWork.php
+- put your keywords in keywords.txt
+- run zFinalWork.php OR to test run http://127.0.0.1:8080/gcontent/new.php?keywords=keyword+here
 
 NOTES:
 - you might want to run zFinalWork.php on localhost with VPN enabled
