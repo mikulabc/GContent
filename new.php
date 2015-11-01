@@ -36,6 +36,9 @@ $value = getValueByXpath("/myroot/myelement[21]/visibleUrl");
 if( $value!= "NA")
 {
 	echo '<li>'.$value.'</li>';
+} else
+{
+ echo '<li>Not Available</li>';
 }
 
 echo '<!--UL list will start from here--></ul>';
