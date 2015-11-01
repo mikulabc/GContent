@@ -1,2 +1,17 @@
 # GContent
-Nothing Interesting Yet :)
+preparation:
+set correct path to:
+- https://www.googleapis.com/customsearch/...
+- http://127.0.0.1:8080/gcontent/new.php
+inside zFinalWork.php
+
+templates:
+- new.php
+- xml_to_html.php
+
+to run:
+1.) put your keywords in keywords.txt
+2.) run zFinalWork.php
+
+NOTES:
+- you might want to run zFinalWork.php on localhost with VPN enabled
